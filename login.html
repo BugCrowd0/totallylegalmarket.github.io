@@ -1,16 +1,1 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>TLM / LOGIN</title><link rel="stylesheet" href="style.css"></head>
-<body><div class="noise"></div><header class="topbar"><a class="brand" href="index.html">TLM<span>_</span></a><nav><a href="index.html">HOME</a><a href="mods.html">MODS</a><a href="showcases.html">SHOWCASES</a></nav></header>
-<main class="page centered"><section class="auth-card"><p class="eyebrow">ACCOUNT SYSTEM</p><h1 id="authTitle">LOGIN</h1><p id="authSub">SIGN IN TO UPLOAD SHOWCASES.</p>
-<form id="authForm"><input id="email" type="email" placeholder="EMAIL" required><input id="password" type="password" placeholder="PASSWORD" required minlength="6"><input id="username" class="signup-only" type="text" placeholder="USERNAME" maxlength="24"><button class="btn primary" type="submit" id="authSubmit">LOGIN →</button></form>
-<button id="toggleAuth" class="text-button">NEED AN ACCOUNT? SIGN UP</button><div id="authMessage" class="message"></div></section></main>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script><script src="supabase-config.js"></script><script src="site.js"></script>
-<script>
-const form=document.getElementById('authForm'), toggle=document.getElementById('toggleAuth'), username=document.getElementById('username'), title=document.getElementById('authTitle'), sub=document.getElementById('authSub'), submit=document.getElementById('authSubmit'), message=document.getElementById('authMessage'); let signup=false;
-function mode(){signup=!signup; username.classList.toggle('show',signup); title.textContent=signup?'CREATE ACCOUNT':'LOGIN'; sub.textContent=signup?'MAKE AN ACCOUNT TO UPLOAD SHOWCASES.':'SIGN IN TO UPLOAD SHOWCASES.'; submit.textContent=signup?'SIGN UP →':'LOGIN →'; toggle.textContent=signup?'ALREADY HAVE AN ACCOUNT? LOGIN':'NEED AN ACCOUNT? SIGN UP';}
-toggle.addEventListener('click',mode);
-form.addEventListener('submit',async e=>{e.preventDefault(); if(!tlmRequireConfig())return; message.textContent='WORKING...';
-  const email=document.getElementById('email').value.trim(), password=document.getElementById('password').value;
-  if(signup){const uname=username.value.trim(); if(!uname){message.textContent='USERNAME REQUIRED.';return;} const {data,error}=await tlmSupabase.auth.signUp({email,password,options:{data:{username:uname}}}); if(error){message.textContent=error.message;return;} if(data.user){message.textContent='ACCOUNT CREATED. CHECK YOUR EMAIL IF CONFIRMATION IS ENABLED.'; setTimeout(()=>location.href='profile.html',700);} }
-  else {const {data,error}=await tlmSupabase.auth.signInWithPassword({email,password}); if(error){message.textContent=error.message;return;} if(data.user) location.href='profile.html';}
-});
-</script></body></html>
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>TLM / ACCOUNTS REMOVED</title><link rel="stylesheet" href="style.css"></head><body><div class="noise"></div><main class="page centered"><section class="auth-card"><p class="eyebrow">TLM / ACCOUNT SYSTEM</p><h1>ACCOUNTS <span>REMOVED</span></h1><p>TLM no longer uses website accounts. Submit showcases through the Discord bot instead.</p><a class="btn primary" href="upload.html">HOW TO SUBMIT →</a><p><a href="index.html">RETURN HOME</a></p></section></main></body></html>
