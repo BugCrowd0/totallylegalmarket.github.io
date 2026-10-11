@@ -54,5 +54,13 @@ window.TLM_MODS = [
     "category": "CODE MOD",
     "status": "available",
     "url": "https://gofile.io/d/7F7uMPJO"
+  },
+  {
+    "id": "008",
+    "name": "CozmosSoundpackV4",
+    "description": "Soundpack with Cold Weapon Pack, Schmitty’s Surplus And The M4A1 Made By Schmitty.",
+    "category": "BONELAB / SOUNDPACK",
+    "status": "available",
+    "url": "https://files.catbox.moe/vkllzu.zip"
   }
 ];
