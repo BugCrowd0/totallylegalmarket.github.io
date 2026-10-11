@@ -30,5 +30,13 @@ window.TLM_MODS = [
     "category": "CODE MOD",
     "status": "available",
     "url": "https://mega.nz/file/nY0EyKQB#9p-Ofr5jhlEpvBbAWbYxVGGhG5cTRVH3tVOwE8KI3aA"
+  },
+  {
+    "id": "005",
+    "name": "CozmosSoundpackV3",
+    "description": "soundpack for cold weapon pack and schmitty surplus",
+    "category": "SOUNDPACK",
+    "status": "available",
+    "url": "https://files.catbox.moe/1ms4qz.zip"
   }
 ];
