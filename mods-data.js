@@ -6,5 +6,13 @@ window.TLM_MODS = [
     "category": "BONELAB",
     "status": "available",
     "url": "https://drive.google.com/drive/folders/1D2xiE4i8LEpvQ2kxOrhfgtnoAVtelNEc"
+  },
+  {
+    "id": "002",
+    "name": "Isisgrunk's Weapon Pack",
+    "description": "pack made by me aka isigrunk",
+    "category": "PACK",
+    "status": "available",
+    "url": "https://gofile.io/d/a8qfNXz9"
   }
 ];
