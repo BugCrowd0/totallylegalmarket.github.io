@@ -14,5 +14,13 @@ window.TLM_MODS = [
     "category": "BONELAB",
     "status": "available",
     "url": "https://gofile.io/d/a8qfNXz9"
+  },
+  {
+    "id": "003",
+    "name": "Atomwaffen Avatars (PCVR ONLY)",
+    "description": "this was uploaded by operator14. this consists of 2 atomaffen styled avatars for le larping",
+    "category": "BONELAB/MOD COLLECTION",
+    "status": "available",
+    "url": "https://gofile.io/d/VLczul2C"
   }
 ];
