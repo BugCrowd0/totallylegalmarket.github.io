@@ -22,5 +22,13 @@ window.TLM_MODS = [
     "category": "BONELAB/MOD COLLECTION",
     "status": "available",
     "url": "https://gofile.io/d/VLczul2C"
+  },
+  {
+    "id": "004",
+    "name": "Fordpanic mod",
+    "description": "does what it does",
+    "category": "CODE MOD",
+    "status": "available",
+    "url": "https://mega.nz/file/nY0EyKQB#9p-Ofr5jhlEpvBbAWbYxVGGhG5cTRVH3tVOwE8KI3aA"
   }
 ];
