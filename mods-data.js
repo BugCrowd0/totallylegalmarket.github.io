@@ -38,5 +38,13 @@ window.TLM_MODS = [
     "category": "SOUNDPACK",
     "status": "available",
     "url": "https://files.catbox.moe/1ms4qz.zip"
+  },
+  {
+    "id": "006",
+    "name": "Shooter's Armory V2 (PCVR)",
+    "description": "Uploaded by operator14. Consists of 2 larpable guns",
+    "category": "BONELAB MOD",
+    "status": "available",
+    "url": "https://gofile.io/d/buS3rgzQ"
   }
 ];
