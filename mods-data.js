@@ -30,5 +30,13 @@ window.TLM_MODS = [
     "category": "CODE MOD",
     "status": "available",
     "url": "https://mega.nz/file/nY0EyKQB#9p-Ofr5jhlEpvBbAWbYxVGGhG5cTRVH3tVOwE8KI3aA"
+  },
+  {
+    "id": "005",
+    "name": "cozmossoundpack",
+    "description": "soundpack for some cold weapon pack guns and other guns",
+    "category": "BONELAB",
+    "status": "available",
+    "url": "https://files.catbox.moe/qo9sn0.zip"
   }
 ];
