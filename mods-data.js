@@ -46,5 +46,13 @@ window.TLM_MODS = [
     "category": "BONELAB MOD",
     "status": "available",
     "url": "https://gofile.io/d/buS3rgzQ"
+  },
+  {
+    "id": "007",
+    "name": "realistic damage",
+    "description": "simple suicide is now one shot away",
+    "category": "CODE MOD",
+    "status": "available",
+    "url": "https://gofile.io/d/7F7uMPJO"
   }
 ];
