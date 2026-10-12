@@ -54,5 +54,13 @@ window.TLM_MODS = [
     "category": "BONELAB / SOUNDPACK",
     "status": "available",
     "url": "https://files.catbox.moe/vkllzu.zip"
+  },
+  {
+    "id": "009",
+    "name": "749's favourite reskinner",
+    "description": "reskins the gun texture aka allows you to add writing to any gun YOU WANT https://discord.gg/bZHxb9jprq join my discord for more mods",
+    "category": "MISC",
+    "status": "available",
+    "url": "https://files.catbox.moe/dd7fn6.zip"
   }
 ];
