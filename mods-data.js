@@ -10,7 +10,7 @@ window.TLM_MODS = [
   {
     "id": "002",
     "name": "Isisgrunk's Weapon Pack",
-    "description": "pack made by me aka isigrunk",
+    "description": "pack made by me aka isigrunk - V0.7.4",
     "category": "BONELAB",
     "status": "available",
     "url": "https://gofile.io/d/Ba05DVcA"
