@@ -13,7 +13,7 @@ window.TLM_MODS = [
     "description": "pack made by me aka isigrunk",
     "category": "BONELAB",
     "status": "available",
-    "url": "https://gofile.io/d/a8qfNXz9"
+    "url": "https://gofile.io/d/Ba05DVcA"
   },
   {
     "id": "003",
